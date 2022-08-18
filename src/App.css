@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #FF7F50;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.gallery-item-simple {
+  width: '25vw';
+  height: '20vh';
+  border: '1px solid black';
+  margin: '2px';
+}
+
+.gallery-item-detailed {
+  width: '80vw';
+  height: '20vh';
+  border: '1px solid black';
+  margin: '2px';
+  /*backgroundImage: `url(${props.item.artworkUrl100})`; */
+  backgroundRepeat: 'no-repeat';
+  backgroundSize: 'cover';
+  color: 'yellow';
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+button {
+  margin: 5px;
+}

@@ -24,12 +24,12 @@ function GalleryItem(props){
 
     const simpleView = () => {
         return (
-            <div className="gallery-item-simple">
-                <h3>{props.data.trackName}</h3>
-                <h4>{props.data.collectionName}</h4>
+            <div style={simpleStyle}>
+                <h3>{props.item.trackName}</h3>
+                <h4>{props.item.collectionName}</h4>
             </div>
-        );
-    };
+        )
+    }
     
     const detailView = () => {
         return (

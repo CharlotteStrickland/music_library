@@ -6,7 +6,7 @@ const SearchBar = (props) => {
     return (
         <div className="search-bar">
         <form onSubmit={(e)=> props.handleSearch(e, searchTerm)}>
-            <input type="text" placeholder="Search for music..." onChange={(e)=>props.handleSearch(e, e.target.value)} />  {/*setSearchTerm(e.target.value) */}
+            <input type="text" placeholder="Search Here" onChange={(e)=>props.handleSearch(e, e.target.value)} />  {/*setSearchTerm(e.target.value) */}
             <button type="submit">Search</button>
         </form>
         {/* {message ? <h2>{message}</h2> : null} */}
@@ -15,4 +15,4 @@ const SearchBar = (props) => {
     );
 };
 
-export default SearchBar;
+export default SearchBar
